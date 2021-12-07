@@ -38,7 +38,7 @@ To introduce a little bit of notation, we sort of started to talk about this ear
 
 <img src="https://latex.codecogs.com/gif.latex?{x}^{(2)}\text{=}\begin{bmatrix}%201416\\\%203\\\%202\\\%2040%20\end{bmatrix}">
 
-<img src="https://latex.codecogs.com/gif.latex?x_{2}^{\left( 2 \right)}=3,x_{3}^{\left( 2 \right)}=2">
+<img src="https://latex.codecogs.com/gif.latex?x_{2}^{\left(%202%20\right)}=3,x_{3}^{\left(%202%20\right)}=2">
 
 The hypothesis supporting multi variable is expressed as:
 
