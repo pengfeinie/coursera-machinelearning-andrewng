@@ -34,33 +34,31 @@ It seems like this would give us a lot more information with which to predict th
 
 ![](https://pengfeinie.github.io/images/591785837c95bca369021efa14a8bb1c.png)
 
-To introduce a little bit of notation, we sort of started to talk about this earlier, in this case, four features and I'm going to continue to use Y to denote the variable, the output variable price that we're trying to predict. 
+To introduce a little bit of notation, we sort of started to talk about this earlier, in this case, four features and I'm going to continue to use Y to denote the variable, the output variable price that we're trying to predict. Let's introduce a little bit more notation. Now that we have four features, I'm going to use lowercase "n" to denote the number of features. So in this example , you know, one, two, three, four features. And "n" is different from our earlier notation where we were using "n" to denote the number of examples. So if you have 47 rows "M" is the number of rows on this table or the number of training examples. So I'm also going to use X superscript "i" to denote the input features of the "i" training example.
 
-Let's introduce a little bit more notation. Now that we have four features, I'm going to use lowercase "n" to denote the number of features. So in this example , you know, one, two, three, four features. And "n" is different from our earlier notation where we were using "n" to denote the number of examples. So if you have 47 rows "M" is the number of rows on this table or the number of training examples. So I'm also going to use X superscript "i" to denote the input features of the "i" training example.
+<img src="https://latex.codecogs.com/gif.latex?{x}^{(2)}\text{=}\begin{bmatrix}%201416\\\%203\\\%202\\\%2040%20\end{bmatrix}">
+
+<img src="https://latex.codecogs.com/gif.latex?x_{2}^{\left( 2 \right)}=3,x_{3}^{\left( 2 \right)}=2">
+
+The hypothesis supporting multi variable is expressed as:
+
+<img src="https://latex.codecogs.com/gif.latex?h_{\theta}\left( x \right)={\theta_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}">
+
+There is a parameter and a variable in this formula, and to simplify the formula a little bit, the formula is converted to:
+
+<img src="https://latex.codecogs.com/gif.latex?h_{\theta} \left( x \right)={\theta_{0}}{x_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}}">
+
+At this point, the parameters in the model are a vector of (n+1) dimensions, and any training instance is also a vector of (n+1) dimensions, and the dimension of the matrix is m x (n+1).  So the formula can be Simply to : 
+
+<img src="https://latex.codecogs.com/gif.latex?h_{\theta} \left( x \right)={\theta^{T}}X">
 
 ![image-20211206181321485](https://pengfeinie.github.io/images/image-20211206181321485.png)
 
-<img src="https://latex.codecogs.com/gif.latex?{x}^{(2)}\text{=}\begin{bmatrix}%201416\\\%203\\\%202\\\%2040%20\end{bmatrix}">
-$$
-{x}^{(2)}\text{=}\begin{bmatrix} 1416\\\ 3\\\ 2\\\ 40 \end{bmatrix}
+
 $$
 
 $$
-x_{2}^{\left( 2 \right)}=3,x_{3}^{\left( 2 \right)}=2
-$$
-
-$$
-h_{\theta}\left( x \right)={\theta_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}}
-$$
-
-$$
-h_{\theta} \left( x \right)={\theta_{0}}{x_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}}
-$$
-
-$$
-J\left( \theta \right)=\frac{1}{2m}\sum\limits_{i=1}^{m}{{{\left( {h_{\theta}}\left( {x^{(i)}} \right)-{y^{(i)}} \right)}^{2}}}
-$$
-
 
 
 http://www.ai-start.com/ml2014/html/week2.html
+
