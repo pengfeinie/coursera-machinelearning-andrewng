@@ -42,26 +42,21 @@ To introduce a little bit of notation, we sort of started to talk about this ear
 
 The hypothesis supporting multi variable is expressed as:
 
-<img src="https://latex.codecogs.com/gif.latex?h_{\theta}\left( x \right)={\theta_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}">
+<img src="https://latex.codecogs.com/gif.latex?h_{\theta}\left(%20x%20\right)={\theta_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}">
 
 There is a parameter and a variable in this formula, and to simplify the formula a little bit, the formula is converted to:
 
-<img src="https://latex.codecogs.com/gif.latex?h_{\theta} \left( x \right)={\theta_{0}}{x_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}}">
+<img src="https://latex.codecogs.com/gif.latex?h_{\theta}%20\left(%20x%20\right)={\theta_{0}}{x_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}}">
 
 At this point, the parameters in the model are a vector of (n+1) dimensions, and any training instance is also a vector of (n+1) dimensions, and the dimension of the matrix is m x (n+1).  So the formula can be Simply to : 
 
-<img src="https://latex.codecogs.com/gif.latex?h_{\theta} \left( x \right)={\theta^{T}}X">
-
-![](https://latex.codecogs.com/gif.latex?h_{\theta} \left( x \right)={\theta^{T}}X)
+<img src="https://latex.codecogs.com/gif.latex?h_{\theta}%20\left(%20x%20\right)={\theta^{T}}X">
 
 
 
 ![image-20211206181321485](https://pengfeinie.github.io/images/image-20211206181321485.png)
 
 
-$$
-
-$$
 
 
 http://www.ai-start.com/ml2014/html/week2.html
