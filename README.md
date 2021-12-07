@@ -52,6 +52,10 @@ At this point, the parameters in the model are a vector of (n+1) dimensions, and
 
 <img src="https://latex.codecogs.com/gif.latex?h_{\theta} \left( x \right)={\theta^{T}}X">
 
+![](https://latex.codecogs.com/gif.latex?h_{\theta} \left( x \right)={\theta^{T}}X)
+
+
+
 ![image-20211206181321485](https://pengfeinie.github.io/images/image-20211206181321485.png)
 
 
