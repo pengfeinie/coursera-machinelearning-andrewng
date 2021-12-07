@@ -40,7 +40,7 @@ Let's introduce a little bit more notation. Now that we have four features, I'm 
 
 ![image-20211206181321485](https://pengfeinie.github.io/images/image-20211206181321485.png)
 
-
+<img src="https://latex.codecogs.com/gif.latex?{x}^{(2)}\text{=}\begin{bmatrix}%201416\\\%203\\\%202\\\%2040%20\end{bmatrix}">
 $$
 {x}^{(2)}\text{=}\begin{bmatrix} 1416\\\ 3\\\ 2\\\ 40 \end{bmatrix}
 $$
@@ -57,7 +57,9 @@ $$
 h_{\theta} \left( x \right)={\theta_{0}}{x_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}}
 $$
 
-
+$$
+J\left( \theta \right)=\frac{1}{2m}\sum\limits_{i=1}^{m}{{{\left( {h_{\theta}}\left( {x^{(i)}} \right)-{y^{(i)}} \right)}^{2}}}
+$$
 
 
 
