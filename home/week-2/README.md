@@ -14,7 +14,7 @@ It seems like this would give us a lot more information with which to predict th
 
 ![](/extra/img/week2_02.png)
 
-<embed src="/home/week-2/lectures/notes.pdf" type="application/pdf" height="100%" width="100%"/>
+<embed src="https://pengfeinie.github.io/files/The-past-and-present-lives-of-NIO-principle-analysis.pdf" type="application/pdf" height="100%" width="100%"/>
 
 To introduce a little bit of notation, we sort of started to talk about this earlier, in this case, four features and I'm going to continue to use Y to denote the variable, the output variable price that we're trying to predict. Let's introduce a little bit more notation. Now that we have four features, I'm going to use lowercase "n" to denote the number of features. So in this example , you know, one, two, three, four features. And "n" is different from our earlier notation where we were using "n" to denote the number of examples. So if you have 47 rows "M" is the number of rows on this table or the number of training examples. So I'm also going to use X superscript "i" to denote the input features of the "i" training example.
 
