@@ -20,20 +20,17 @@ We now introduce notation for equations where we can have any number of input va
 
 To introduce a little bit of notation, we sort of started to talk about this earlier, in this case, four features and I'm going to continue to use Y to denote the variable, the output variable price that we're trying to predict.
 
- <img src="https://latex.codecogs.com/gif.latex?{x}^{(2)}\text{=}\begin{bmatrix}%201416\\\%203\\\%202\\\%2040%20\end{bmatrix}"> <img src="https://latex.codecogs.com/gif.latex?x_{2}^{\left(%202%20\right)}=3,x_{3}^{\left(%202%20\right)}=2">
+ <img src="https://latex.codecogs.com/gif.latex?{x}^{(2)}\text{=}\begin{bmatrix}%201416\\\%203\\\%202\\\%2040%20\end{bmatrix}"> 
 
+<img src="https://latex.codecogs.com/gif.latex?x_{2}^{\left(%202%20\right)}=3,x_{3}^{\left(%202%20\right)}=2">
 
+Now define the multivariable form of the hypothesis function as follows, accommodating these multiple features:  
 
-
-
-Now define the multivariable form of the hypothesis function as follows, accommodating these multiple features:  <img src="https://latex.codecogs.com/gif.latex?h_{\theta}\left(%20x%20\right)={\theta_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}">
+<img src="https://latex.codecogs.com/gif.latex?h_{\theta}\left(%20x%20\right)={\theta_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}">
 
 In order to develop intuition about this function, we can think about  <img src="https://latex.codecogs.com/gif.latex?{\theta_{0}}"> as the basic price of a house, <img src="https://latex.codecogs.com/gif.latex?{\theta_{1}}"> as the price per square meter, <img src="https://latex.codecogs.com/gif.latex?{\theta_{2}}"> as the price per floor, etc.  <img src="https://latex.codecogs.com/gif.latex?{x_{1}}"> will be the number of square meters in the house, <img src="https://latex.codecogs.com/gif.latex?{x_{2}}"> the number of  floors, etc.
 
 There is a parameter and a variable in this formula, and to simplify the formula a little bit, the formula is converted to (e.g <img src="https://latex.codecogs.com/gif.latex?x_{0}=1">):
-$$
-
-$$
 <img src="https://latex.codecogs.com/gif.latex?h_{\theta}%20\left(%20x%20\right)={\theta_{0}}{x_{0}}+{\theta_{1}}{x_{1}}+{\theta_{2}}{x_{2}}+...+{\theta_{n}}{x_{n}}">
 
 At this point, the parameters in the model are a vector of (n+1) dimensions, and any training instance is also a vector of (n+1) dimensions, and the dimension of the matrix is m x (n+1).  So the formula can be Simply to : 
