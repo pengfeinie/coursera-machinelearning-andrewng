@@ -1,6 +1,6 @@
-# Machine Learning By Prof. Andrew Ng :star2::star2::star2::star2::star:
+# Machine Learning By Prof. Andrew Ng 
 
-This page continas all my coursera machine learning courses and resources :book: by [Prof. Andrew Ng](http://www.andrewng.org/) :man:
+This page continas all my coursera machine learning courses and resources by [Prof. Andrew Ng](http://www.andrewng.org/).
 
 # Table of Contents
 1. [Breif Intro](#breif-intro)
@@ -198,7 +198,7 @@ Source: http://scott.fortmann-roe.com/docs/BiasVariance.html
 
 ## Aditional Information
 
-## :boom: Course Status :point_down:
+## Course Status
 ![coursera_course_completion](/extra/img/coursera_course_completion.png)
 
 ### Links
