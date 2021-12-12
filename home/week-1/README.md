@@ -26,7 +26,7 @@ Recall that in regression problems, we are taking input variables and trying to 
 
 ### The Hypothesis Function
 
-![](/extra/img/week01-lecture2-02.png)
+![](/extra/img/week01-lecture2-03.png)
 
 Our hypothesis function has the general form: 
 
