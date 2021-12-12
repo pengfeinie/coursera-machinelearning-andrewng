@@ -18,13 +18,15 @@ In general, any machine learning problem can be assigned to one of two broad cla
 
 ### Linear Regression with One Variable - Lecture 2
 
-Recall that in regression problems, we are taking input variables and trying to result function. Linear regression with one variable is also known as "univariate linear regression."Univariate linear regression is used when you want to predict a single output value y from a single input value x. We're doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.
+Recall that in regression problems, we are taking input variables and trying to result function. Linear regression with one variable is also known as "univariate linear regression." Univariate linear regression is used when you want to predict a single output value y from a single input value x. We're doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.
 
 ![](/extra/img/week01-lecture2-01.png)
 
 ![](/extra/img/week01-lecture2-02.png)
 
 ### The Hypothesis Function
+
+![](/extra/img/week01-lecture2-02.png)
 
 Our hypothesis function has the general form: 
 
