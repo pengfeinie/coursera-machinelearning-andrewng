@@ -22,6 +22,8 @@ Recall that in regression problems, we are taking input variables and trying to 
 
 ![](/extra/img/week01-lecture2-01.png)
 
+![](/extra/img/week01-lecture2-02.png)
+
 ### The Hypothesis Function
 
 Our hypothesis function has the general form: 
