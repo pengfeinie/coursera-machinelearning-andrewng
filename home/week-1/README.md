@@ -16,9 +16,11 @@ P = the probability that the program will win the next game.
 
 In general, any machine learning problem can be assigned to one of two broad classifications: Supervised learning and Unsupervised learning.
 
-### Linear Regression with One Variable
+### Linear Regression with One Variable - Lecture 2
 
 Recall that in regression problems, we are taking input variables and trying to result function. Linear regression with one variable is also known as "univariate linear regression."Univariate linear regression is used when you want to predict a single output value y from a single input value x. We're doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.
+
+![](/extra/img/week01-lecture2-01.png)
 
 ### The Hypothesis Function
 
@@ -39,3 +41,4 @@ This function is otherwise called the "Squared error function", or "Mean squared
 ### Gradient Descent
 
 So we have our hypothesis function and we have a way of measuring how well it estimate the parameters in hypothesis function. That's where gradient descent comes in.
+
