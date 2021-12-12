@@ -22,7 +22,15 @@ Recall that in regression problems, we are taking input variables and trying to 
 
 ### The Hypothesis Function
 
-Our hypothesis function has the general form: <img src="https://latex.codecogs.com/gif.latex?\hat{y}=h_\theta%20\left(%20x%20\right)=\theta_{0}%20+%20\theta_{1}x">
+Our hypothesis function has the general form: 
 
-Note that this is like the equation of a straight line. We give to <img src="https://latex.codecogs.com/gif.latex?h_\theta%20\left(%20x%20\right)"> values for <img src="https://latex.codecogs.com/gif.latex?\theta_{0}%20">and <img src="https://latex.codecogs.com/gif.latex?\theta_{1}%20">to get our estimated output <img src="https://latex.codecogs.com/gif.latex?\hat{y}"> .In other words, we are trying to create a function called that is trying to map our input data to our output data.
+<img src="https://latex.codecogs.com/gif.latex?\hat{y}=h_\theta%20\left(%20x%20\right)=\theta_{0}%20+%20\theta_{1}x">
+
+Note that this is like the equation of a straight line. We give to  <img src="https://latex.codecogs.com/gif.latex?h_\theta%20\left(%20x%20\right)">  values for  <img src="https://latex.codecogs.com/gif.latex?\theta_{0}%20"> and  <img src="https://latex.codecogs.com/gif.latex?\theta_{1}%20"> to get our estimated output <img src="https://latex.codecogs.com/gif.latex?\hat{y}"> .In other words, we are trying to create a function called that is trying to map our input data to our output data.
+
+### Cost Function
+
+We can measure the accuracy of our hypothesis function by using a cost function. This takes an average (actually a fancier version of an average) of all the results of the hypothesis with inputs from x compared to the actual output y.
+
+<img src="https://latex.codecogs.com/gif.latex?J%20\left(%20\theta_0,%20\theta_1%20\right)%20=%20\frac{1}{2m}\sum\limits_{i=1}^m%20\left(%20\hat{y}^{(i)}%20-y^{(i)}%20\right)^{2}=%20\frac{1}{2m}\sum\limits_{i=1}^m%20\left(%20h_{\theta}(x^{(i)})-y^{(i)}%20\right)^{2}">
 
