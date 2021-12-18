@@ -48,7 +48,7 @@ A regression problem is when the output variable is a real or continuous value, 
 
 #### 1.1.2 Introduction Unsupervised Learning
 
-
+Clean, perfectly labeled datasets aren’t easy to come by. And sometimes, researchers are asking the algorithm questions they don’t know the answer to. That’s where unsupervised learning comes in. The training dataset is a collection of examples without a specific desired outcome or correct answer. 
 
 ### Linear Regression with One Variable - Lecture 2
 
