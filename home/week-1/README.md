@@ -134,7 +134,7 @@ Logistic regression is a statistical model that in its basic form uses a logisti
 
 **The Hypothesis Function**
 
-The image that depicts the working of the Logistic regression model:
+The image that depicts the working of the Logistic regression model [source]( https://www.analyticsvidhya.com/blog/2021/07/an-introduction-to-logistic-regression/):
 ![](/extra/img/1691044-1024x472.jpg)
 
 A linear equation (z) is given to a sigmoidal activation function (σ) to predict the output (ŷ).
