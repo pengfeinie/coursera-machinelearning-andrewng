@@ -1,4 +1,8 @@
-## What is Machine Learning?
+## Lecture 1
+
+### What is Machine Learning?
+
+#### Machine Learning definition
 
 Two definitions of Machine Learning are offered.
 
@@ -14,7 +18,11 @@ T = the task of playing checkers.
 
 P = the probability that the program will win the next game.
 
-In general, any machine learning problem can be assigned to one of two broad classifications: Supervised learning and Unsupervised learning.
+![](/extra/img/week01-lecture1-01.png)
+
+In general, any machine learning problem can be assigned to one of two broad classifications: 
+
+**Supervised learning and Unsupervised learning.**
 
 ### Linear Regression with One Variable - Lecture 2
 
