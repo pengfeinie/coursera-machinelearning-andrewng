@@ -1,8 +1,6 @@
-## Lecture 1
+## 1. What is Machine Learning?
 
-### What is Machine Learning?
-
-#### Machine Learning definition
+### 1.1 Machine Learning definition
 
 Two definitions of Machine Learning are offered.
 
@@ -24,9 +22,7 @@ In general, any machine learning problem can be assigned to one of two broad cla
 
 **Supervised learning and Unsupervised learning.**
 
-
-
-#### Introduction Supervised Learning
+#### 1.1.1 Introduction Supervised Learning
 
 ![](/extra/img/Supervised_machine_learning_in_a_nutshell.svg_.png)
 
@@ -41,6 +37,10 @@ Classification problems ask the algorithm to predict a discrete value, identifyi
 A regression problem is when the output variable is a real or continuous value, such as “salary” or “weight”. Many different models can be used, the simplest is the linear regression. It tries to fit data with the best hyper-plane which goes through the points.
 
 ![](/extra/img/week01-lecture2-01.png)
+
+#### 1.1.2 Introduction Unsupervised Learning
+
+
 
 ### Linear Regression with One Variable - Lecture 2
 
@@ -87,3 +87,5 @@ https://www.geeksforgeeks.org/regression-classification-supervised-machine-learn
 https://www.congrelate.com/18-machine-learning-algorithm-for-classification-gif/
 
 https://vinodsblog.com/
+
+https://www.diegocalvo.es/en/machine-learning-supervised-unsupervised/
