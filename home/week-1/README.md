@@ -88,6 +88,18 @@ Linear Regression and Logistic Regression are the two famous Machine Learning Al
 
 Clean, perfectly labeled datasets aren’t easy to come by. And sometimes, researchers are asking the algorithm questions they don’t know the answer to. That’s where unsupervised learning comes in. The training dataset is a collection of examples without a specific desired outcome or correct answer. 
 
+This type of machine learning algorithm learns from a dataset without any labels. The algorithm can automatically classify or categorize the input data. The application of unsupervised learning mainly includes cluster analysis, association rule or dimensionality reduce. [source](https://www.ecloudvalley.com/mlintroduction/)
+
+![](/extra/img/Unsupervised-learning.png)
+
+
+
+
+
+
+
+
+
 ### Linear Regression with One Variable - Lecture 2
 
 Recall that in regression problems, we are taking input variables and trying to result function. Linear regression with one variable is also known as "univariate linear regression." Univariate linear regression is used when you want to predict a single output value y from a single input value x. We're doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.
