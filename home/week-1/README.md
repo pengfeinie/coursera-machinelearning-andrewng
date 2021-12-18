@@ -234,3 +234,11 @@ https://vinodsblog.com/2018/03/11/the-exciting-evolution-of-machine-learning/
 https://argoshare.is.ed.ac.uk/healthyr_book/binary-logistic-regression.html
 
 https://www.analyticsvidhya.com/blog/2021/07/an-introduction-to-logistic-regression/
+
+https://www.geeksforgeeks.org/ml-cost-function-in-logistic-regression/
+
+https://laptrinhx.com/derivative-of-log-loss-function-for-logistic-regression-3891259225/
+
+https://www.sail.name/2018/06/03/the-fourth-week-homework-of-ML-Stanford/
+
+http://saitcelebi.com/tut/output/part1.html
