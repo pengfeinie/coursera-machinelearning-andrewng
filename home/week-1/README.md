@@ -90,7 +90,7 @@ Clean, perfectly labeled datasets aren’t easy to come by. And sometimes, resea
 
 This type of machine learning algorithm learns from a dataset without any labels. The algorithm can automatically classify or categorize the input data. The application of unsupervised learning mainly includes cluster analysis, association rule or dimensionality reduce. [source](https://www.ecloudvalley.com/mlintroduction/)
 
-![](/extra/img/Unsupervised-learning.png)
+![](/extra/img/2021-12-18_145009.png)
 
 
 
@@ -155,3 +155,5 @@ https://towardsdatascience.com/a-beginners-guide-to-regression-analysis-in-machi
 https://www.oatext.com/a-supervised-machine-learning-approach-to-generate-the-auto-rule-for-clinical-decision-support-system.php
 
 https://www.v7labs.com/blog/supervised-vs-unsupervised-learning
+
+https://www.analyticsvidhya.com/blog/2021/03/everything-you-need-to-know-about-machine-learning/
