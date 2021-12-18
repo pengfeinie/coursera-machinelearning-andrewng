@@ -24,6 +24,22 @@ In general, any machine learning problem can be assigned to one of two broad cla
 
 **Supervised learning and Unsupervised learning.**
 
+
+
+#### Introduction Supervised Learning
+
+![](/extra/img/Supervised_machine_learning_in_a_nutshell.svg_.png)
+
+There are two main areas where supervised learning is useful: classification problems and regression problems.
+
+Classification problems ask the algorithm to predict a discrete value, identifying the input data as the member of a particular class, or group. In a training dataset of animal images, that would mean each photo was pre-labeled as cat, koala or turtle. The algorithm is then evaluated by how accurately it can correctly classify new images of other koalas and turtles.
+
+![](/extra/img/week01-lecture2-01.png)
+
+
+
+
+
 ### Linear Regression with One Variable - Lecture 2
 
 Recall that in regression problems, we are taking input variables and trying to result function. Linear regression with one variable is also known as "univariate linear regression." Univariate linear regression is used when you want to predict a single output value y from a single input value x. We're doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.
@@ -54,3 +70,10 @@ This function is otherwise called the "Squared error function", or "Mean squared
 
 So we have our hypothesis function and we have a way of measuring how well it estimate the parameters in hypothesis function. That's where gradient descent comes in.
 
+
+
+
+
+
+
+https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/
