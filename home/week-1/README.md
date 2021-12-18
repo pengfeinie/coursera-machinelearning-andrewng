@@ -22,11 +22,13 @@ In general, any machine learning problem can be assigned to one of two broad cla
 
 #### 1.1.1 Introduction Supervised Learning
 
-Supervised learning is a set of techniques that allows future predictions based on behaviors or characteristics analyzed in historical data.
+Supervised learning is a set of techniques that allows future predictions based on behaviors or characteristics analyzed in historical data. In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output. Supervised learning problems are categorized into "regression" and "classification" trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are trying to map input variables into discrete categories. 
 
 ![](/extra/img/Supervised_machine_learning_in_a_nutshell.svg_.png)
 
 There are two main areas where supervised learning is useful: **classification problems** and **regression problems**.
+
+![](/extra/img/week1_04.png) 
 
 ![](/extra/img/2021-12-18_130447.png) 
 
