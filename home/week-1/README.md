@@ -134,6 +134,19 @@ Logistic regression is a statistical model that in its basic form uses a logisti
 
 **The Hypothesis Function**
 
+The image that depicts the working of the Logistic regression model:
+![](/extra/img/1691044-1024x472.jpg)
+
+A linear equation (z) is given to a sigmoidal activation function (σ) to predict the output (ŷ).
+
+To evaluate the performance of the model, we calculate the loss. The most commonly used loss function is the mean squared error.
+
+But in logistic regression, as the output is a probability value between 0 or 1, mean squared error wouldn’t be the right choice. So, instead, we use the cross-entropy loss function.
+
+The cross-entropy loss function is used to measure the performance of a classification model whose output is a probability value.
+
+Learn more about the cross-entropy loss function from [here](https://en.wikipedia.org/wiki/Cross_entropy).
+
 **Cost Function**
 
 The cost function represents optimization objective i.e. we create a cost function and minimize it so that we can develop an accurate model with minimum error.
