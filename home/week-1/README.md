@@ -20,7 +20,15 @@ P = the probability that the program will win the next game.
 
 ![](/extra/img/week01-lecture1-01.png)
 
-In general, any machine learning problem can be assigned to one of two broad classifications: **Supervised learning and Unsupervised learning.**
+**Machine learning is the technology that is concerned with teaching computers different algorithms to perform different tasks, and making machines capable of taking care of themselves**. Different ideas are framed and fed to machines. There are mainly three recognized categories of framing ideas, which we reckon as the three types of machine learning. In general, any machine learning problem can be assigned to one of three broad classifications: **Supervised learning and Unsupervised learning and Reinforcement Learning.** [source](https://www.analyticssteps.com/blogs/types-machine-learning) [source](https://www.analyticssteps.com/blogs/what-confusion-matrix)
+
+![](/extra/img/types_ml.jpg)
+
+
+
+
+
+
 
 #### 1.1.1 Introduction Supervised Learning
 
@@ -88,7 +96,7 @@ Linear Regression and Logistic Regression are the two famous Machine Learning Al
 
 Clean, perfectly labeled datasets aren’t easy to come by. And sometimes, researchers are asking the algorithm questions they don’t know the answer to. That’s where unsupervised learning comes in. The training dataset is a collection of examples without a specific desired outcome or correct answer. 
 
-This type of machine learning algorithm learns from a dataset without any labels. The algorithm can automatically classify or categorize the input data. The application of unsupervised learning mainly includes cluster analysis, association rule or dimensionality reduce. [source](https://www.ecloudvalley.com/mlintroduction/)
+This type of machine learning algorithm learns from a dataset without any labels. The algorithm can automatically classify or categorize the input data. The application of unsupervised learning mainly includes cluster analysis, association rule or dimensionality reduce. [source](https://www.ecloudvalley.com/mlintroduction/) [source](https://intellipaat.com/blog/supervised-learning-vs-unsupervised-learning-vs-reinforcement-learning/)
 
 ![](/extra/img/2021-12-18_145009.png)
 
@@ -157,3 +165,9 @@ https://www.oatext.com/a-supervised-machine-learning-approach-to-generate-the-au
 https://www.v7labs.com/blog/supervised-vs-unsupervised-learning
 
 https://www.analyticsvidhya.com/blog/2021/03/everything-you-need-to-know-about-machine-learning/
+
+https://intellipaat.com/blog/supervised-learning-vs-unsupervised-learning-vs-reinforcement-learning/
+
+https://search.slidegeeks.com/search?af=cat1%3apowerpointtemplates&lbc=slidegeeks&method=and&p=Q&ts=custom&w=roadmap&cnt=200
+
+https://intellipaat.com/blog/tutorial/machine-learning-tutorial/
