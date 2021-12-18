@@ -217,3 +217,7 @@ https://vinodsblog.com/2018/03/26/machine-learning-introduction-to-its-algorithm
 https://vinodsblog.com/2018/03/11/the-exciting-evolution-of-machine-learning/
 
 https://vinodsblog.com/2018/03/11/the-exciting-evolution-of-machine-learning/
+
+https://argoshare.is.ed.ac.uk/healthyr_book/binary-logistic-regression.html
+
+https://www.analyticsvidhya.com/blog/2021/07/an-introduction-to-logistic-regression/
