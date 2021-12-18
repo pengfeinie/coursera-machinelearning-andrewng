@@ -30,7 +30,7 @@ Supervised learning is a set of techniques that allows future predictions based 
 
 ![](/extra/img/Supervised_machine_learning_in_a_nutshell.svg_.png)
 
-A labeled dataset of animal images would tell the model whether an image is of a dog, a cat, etc.. Using which, a model gets training, and so, whenever a new image comes up to the model, it can compare that image with the labeled dataset for predicting the correct label.
+A labeled dataset of animal images would tell the model whether an image is of a dog, a cat, etc.. Using which, a model gets training, and so, whenever a new image comes up to the model, it can compare that image with the labeled dataset for predicting the correct label. [source](https://intellipaat.com/blog/supervised-learning-vs-unsupervised-learning-vs-reinforcement-learning/)
 
 ![](/extra/img/2021-12-18_151840.png)
 
@@ -100,13 +100,15 @@ This type of machine learning algorithm learns from a dataset without any labels
 
 ![](/extra/img/2021-12-18_145009.png)
 
+#### 1.1.3 Introduction Reinforcement Learning
 
+After discussing on supervised and unsupervised learning models, now, let me explain to you reinforcement learning. As it is based on neither supervised learning nor unsupervised learning, what is it? To be straight forward, in reinforcement learning, algorithms learn to react to an environment on their own.
 
+To be a little more specific, reinforcement learning is a type of learning that is based on interaction with the environment. It is rapidly growing, along with producing a huge variety of learning algorithms that can be used for various applications.
 
+To begin with, there is always a start and an end state for an agent (the AI-driven system); however, there might be different paths for reaching the end state, like a maze. This is the scenario wherein reinforcement learning is able to find a solution for a problem. Examples of reinforcement learning include self-navigating vacuum cleaners, driverless cars, scheduling of elevators, etc. [source](https://intellipaat.com/blog/supervised-learning-vs-unsupervised-learning-vs-reinforcement-learning/)
 
-
-
-
+![](/extra/img/2021-12-18_152435.png)
 
 ### Linear Regression with One Variable - Lecture 2
 
