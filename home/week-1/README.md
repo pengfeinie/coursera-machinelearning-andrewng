@@ -126,6 +126,10 @@ We can measure the accuracy of our hypothesis function by using a cost function.
 
 This function is otherwise called the "Squared error function", or "Mean squared error". Now we are able to concretely measure the accuracy of our predictor function against the correct results we have so that we can predict new results we don't have. If we try to think of it in visual terms, our training data set is scattered on the x-y plane. We are trying to make straight line  which passes through this scattered set of data. Our objective is to get the best possible line. The best possible line will be such so that the average squared vertical distances of the scattered points from the line will be the least. In the best case, the line should pass through all the points of our training data set. In such a case the value of  <img src="https://latex.codecogs.com/gif.latex?J%20\left(%20\theta_0,%20\theta_1%20\right)%20">  will be 0.
 
+**Gradient descent**
+
+
+
 1.1.1.2 **Logistic Regression**
 
 Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, **logistic regression** is estimating the parameters of a logistic model (a form of binary regression).
@@ -242,3 +246,7 @@ https://laptrinhx.com/derivative-of-log-loss-function-for-logistic-regression-38
 https://www.sail.name/2018/06/03/the-fourth-week-homework-of-ML-Stanford/
 
 http://saitcelebi.com/tut/output/part1.html
+
+https://www.mariakhalusova.com/posts/2017-11-17-logistic-regression-cheat-sheet/
+
+https://sebastianraschka.com/faq/docs/regularized-logistic-regression-performance.html
