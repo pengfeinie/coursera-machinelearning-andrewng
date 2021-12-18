@@ -18,17 +18,17 @@ P = the probability that the program will win the next game.
 
 ![](/extra/img/week01-lecture1-01.png)
 
-In general, any machine learning problem can be assigned to one of two broad classifications: 
-
-**Supervised learning and Unsupervised learning.**
+In general, any machine learning problem can be assigned to one of two broad classifications: **Supervised learning and Unsupervised learning.**
 
 #### 1.1.1 Introduction Supervised Learning
 
+Supervised learning is a set of techniques that allows future predictions based on behaviors or characteristics analyzed in historical data.
+
 ![](/extra/img/Supervised_machine_learning_in_a_nutshell.svg_.png)
 
-There are two main areas where supervised learning is useful: classification problems and regression problems.
+There are two main areas where supervised learning is useful: **classification problems** and **regression problems**.
 
-![](/extra/img/2021-12-18_130447.png)
+![](/extra/img/2021-12-18_130447.png) [source](https://www.congrelate.com/18-machine-learning-algorithm-for-classification-gif/)
 
 Classification problems ask the algorithm to predict a discrete value, identifying the input data as the member of a particular class, or group. In a training dataset of animal images, that would mean each photo was pre-labeled as cat, koala or turtle. The algorithm is then evaluated by how accurately it can correctly classify new images of other koalas and turtles.
 
