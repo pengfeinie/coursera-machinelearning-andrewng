@@ -189,3 +189,23 @@ https://search.slidegeeks.com/search?af=cat1%3apowerpointtemplates&lbc=slidegeek
 https://intellipaat.com/blog/tutorial/machine-learning-tutorial/
 
 https://www.analyticssteps.com/blogs/introduction-machine-learning-supervised-and-unsupervised-learning
+
+https://vinodsblog.com/2018/11/28/machine-learningml-introduction-to-basics/
+
+https://vinodsblog.com/2018/10/15/everything-you-need-to-know-about-convolutional-neural-networks/
+
+https://vinodsblog.com/2021/01/01/2021-the-year-of-transformer-deep-learning/
+
+https://vinodsblog.com/2020/07/28/deep-learning-introduction-to-boltzmann-machines/
+
+https://vinodsblog.com/2018/11/28/machine-learningml-introduction-to-basics/
+
+https://vinodsblog.com/2018/11/28/machine-learningml-introduction-to-basics/
+
+https://vinodsblog.com/2019/03/31/supervised-vs-unsupervised-machine-learning/
+
+https://vinodsblog.com/2018/03/26/machine-learning-introduction-to-its-algorithms-mlalgos/
+
+https://vinodsblog.com/2018/03/11/the-exciting-evolution-of-machine-learning/
+
+https://vinodsblog.com/2018/03/11/the-exciting-evolution-of-machine-learning/
