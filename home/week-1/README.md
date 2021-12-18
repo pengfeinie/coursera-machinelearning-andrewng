@@ -34,6 +34,18 @@ There are two main areas where supervised learning is useful: classification pro
 
 Classification problems ask the algorithm to predict a discrete value, identifying the input data as the member of a particular class, or group. In a training dataset of animal images, that would mean each photo was pre-labeled as cat, koala or turtle. The algorithm is then evaluated by how accurately it can correctly classify new images of other koalas and turtles.
 
+![](/extra/img/week1_02.png)
+
+
+
+
+
+
+
+
+
+
+
 ![](/extra/img/week01-lecture2-01.png)
 
 
