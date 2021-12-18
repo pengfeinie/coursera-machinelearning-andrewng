@@ -24,19 +24,15 @@ P = the probability that the program will win the next game.
 
 ![](/extra/img/types_ml.jpg)
 
-
-
-
-
-
-
 #### 1.1.1 Introduction Supervised Learning
 
-Supervised learning is a set of techniques that allows future predictions based on behaviors or characteristics analyzed in historical data. In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output. Supervised learning problems are categorized into "regression" and "classification" trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are trying to map input variables into discrete categories. 
+Supervised learning is a set of techniques that allows future predictions based on behaviors or characteristics analyzed in historical data. In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output. Supervised learning problems are categorized into "regression" and "classification" trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are trying to map input variables into discrete categories. [source](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/)
 
 ![](/extra/img/Supervised_machine_learning_in_a_nutshell.svg_.png)
 
-[source](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/)
+A labeled dataset of animal images would tell the model whether an image is of a dog, a cat, etc.. Using which, a model gets training, and so, whenever a new image comes up to the model, it can compare that image with the labeled dataset for predicting the correct label.
+
+![](/extra/img/2021-12-18_151840.png)
 
 There are two main areas where supervised learning is useful: **classification problems** and **regression problems**.
 
@@ -46,11 +42,15 @@ There are two main areas where supervised learning is useful: **classification p
 
 [source](https://www.congrelate.com/18-machine-learning-algorithm-for-classification-gif/)
 
+**classification problems**
+
 Classification problems ask the algorithm to predict a discrete value, identifying the input data as the member of a particular class, or group. In a training dataset of animal images, that would mean each photo was pre-labeled as cat, koala or turtle. The algorithm is then evaluated by how accurately it can correctly classify new images of other koalas and turtles.
 
 ![](/extra/img/week1_02.png)
 
 [source](https://developers.google.com/machine-learning/guides/text-classification/?hl=it-CH)
+
+**regression problems**
 
 A regression problem is when the output variable is a real or continuous value, such as “salary” or “weight”. Many different models can be used, the simplest is the linear regression. It tries to fit data with the best hyper-plane which goes through the points.
 
