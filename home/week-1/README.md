@@ -32,6 +32,8 @@ In general, any machine learning problem can be assigned to one of two broad cla
 
 There are two main areas where supervised learning is useful: classification problems and regression problems.
 
+![](/extra/img/week1_02.bmp)
+
 Classification problems ask the algorithm to predict a discrete value, identifying the input data as the member of a particular class, or group. In a training dataset of animal images, that would mean each photo was pre-labeled as cat, koala or turtle. The algorithm is then evaluated by how accurately it can correctly classify new images of other koalas and turtles.
 
 ![](/extra/img/week1_02.png)
@@ -81,3 +83,7 @@ https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/
 https://developers.google.com/machine-learning/guides/text-classification/?hl=it-CH
 
 https://www.geeksforgeeks.org/regression-classification-supervised-machine-learning/
+
+https://www.congrelate.com/18-machine-learning-algorithm-for-classification-gif/
+
+https://vinodsblog.com/
