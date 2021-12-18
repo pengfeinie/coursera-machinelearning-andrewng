@@ -1,3 +1,11 @@
+![](/extra/img/1_HNjcfB3lccaqB95fSWXJpQ.png)
+
+**Artificial Intelligence** is purely math and scientific exercise but when it becomes computational, it starts to solve human problems.
+
+**Machine Learning** is a subset of Artificial Intelligence. ML is the study of computer algorithms that improve automatically through experience. ML explores the study and construction of algorithms that can learn from data and make predictions on data. Based on more data, machine learning can change actions and responses which will make it more efficient, adaptable, and scalable. [source](https://www.analyticsvidhya.com/blog/2021/03/everything-you-need-to-know-about-machine-learning/)
+
+**Deep Learning** is a technique for implementing machine learning algorithms. It uses **Artificial Neural Networks** for training data to achieve highly promising decision making. The neural network performs micro calculations with computational on many layers and can handle tasks like humans.
+
 ## 1. What is Machine Learning?
 
 ### 1.1 Machine Learning definition
