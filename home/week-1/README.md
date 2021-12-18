@@ -36,21 +36,9 @@ Classification problems ask the algorithm to predict a discrete value, identifyi
 
 ![](/extra/img/week1_02.png)
 
-
-
-
-
-
-
-
-
-
+A regression problem is when the output variable is a real or continuous value, such as “salary” or “weight”. Many different models can be used, the simplest is the linear regression. It tries to fit data with the best hyper-plane which goes through the points.
 
 ![](/extra/img/week01-lecture2-01.png)
-
-
-
-
 
 ### Linear Regression with One Variable - Lecture 2
 
@@ -89,3 +77,7 @@ So we have our hypothesis function and we have a way of measuring how well it es
 
 
 https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/
+
+https://developers.google.com/machine-learning/guides/text-classification/?hl=it-CH
+
+https://www.geeksforgeeks.org/regression-classification-supervised-machine-learning/
