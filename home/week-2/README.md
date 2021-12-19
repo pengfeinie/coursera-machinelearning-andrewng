@@ -1,6 +1,6 @@
 ## Week 2
 
-### 2.1 Multiple Features
+### 2.1 Linear Regression with Multiple Variables
 
 We will start to talk about a new version of linear regression that's more powerful. One that works with multiple variables or with multiple features. Here's what I mean. In the original version of linear regression that we developed, we have a single feature x, the size of the house, and we wanted to use that to predict why the price of the house and this was our form of our hypothesis.
 
@@ -12,9 +12,7 @@ It seems like this would give us a lot more information with which to predict th
 
 ![](/extra/img/week2_02.png)
 
-Linear regression with multiple variables is also known as "multivariate linear regression".
-
-We now introduce notation for equations where we can have any number of input variables.
+Linear regression with multiple variables is also known as "multivariate linear regression". We now introduce notation for equations where we can have any number of input variables.
 
 ![](/extra/img/week2_03.png)
 
