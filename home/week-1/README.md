@@ -100,7 +100,7 @@ Linear Regression and Logistic Regression are the two famous Machine Learning Al
 | In Linear regression, it is required that relationship between dependent variable and independent variable must be linear. | In Logistic regression, it is not required to have the linear relationship between the dependent and independent variable. |
 | In linear regression, there may be collinearity between the independent variables. | In logistic regression, there should not be collinearity between the independent variable. |
 
-##### 1.1.1.1 **Linear Regression with One Variable**
+##### 1.1.1.1 **Simple Linear Regression**
 
 Recall that in regression problems, we are taking input variables and trying to result function. Linear regression with one variable is also known as "univariate linear regression." Univariate linear regression is used when you want to predict a single output value y from a single input value x. We're doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.
 
@@ -129,6 +129,8 @@ This function is otherwise called the "Squared error function", or "Mean squared
 **Gradient descent**
 
 
+
+1.1.1.2 **Multiple Linear Regression**
 
 
 
