@@ -130,6 +130,87 @@ This function is otherwise called the "Squared error function", or "Mean squared
 
 
 
+
+
+
+
+**Why Can’t We Use Linear Regression To Solve A Classification Problem?** [source](https://ai.plainenglish.io/why-cant-we-use-linear-regression-to-solve-a-classification-problem-68edf1a3261b)
+
+Linear regression and Logistic regression are two of the earliest machine learning algorithms that came into existence. Both of them are supervised machine learning algorithms.
+
+Linear regression is used when the output data is continuous in nature. While Logistic regression is used when the output data is discrete in nature.
+
+But have you ever wondered why is that so? Why can’t we use Linear regression to solve a classification problem where the output data is discrete in nature? And if we can solve a classification problem using Linear regression, then why do we need Logistic regression in the very first place?
+
+The answers to these questions are very interesting and this article intends to enlighten you with the answers. So let’s try and understand the need for Logistic regression using a real-world example.
+
+Obesity is one of the major health problems in the world right now as it is seen as a root cause of many diseases.
+
+**“**[***Obesity is responsible for 4.7 million premature deaths each year.\***](https://ourworldindata.org/obesity#obesity-is-responsible-for-4-7-million-premature-deaths-each-year)**”**
+
+That’s a lot!!!
+
+Let’s assume that you are a researcher at a very reputed health organization. Your work is to identify the obesity percentage of a country.
+
+You have a dataset that consists of the weights of people.
+
+To gain speedy and accurate results, you take the help of machine learning algorithms to identify if a person is obese or not based on his weight.
+
+From the overview, you can easily identify that this is a binary classification problem where if a person is above a certain weight, let’s say 75 kg, then he is considered **obese (1)** and if a person is below 75kg, then he is considered **not obese (0)**
+
+So let’s see if Linear regression can be used to identify if a person is obese or not based on his weight…
+
+**Will Linear Regression Help You To Classify If A Person Is Obese Or Not?**
+
+As the next step in your research journey, you start training your Linear regression model.
+
+You plot a 2-dimensional graph with weight on the x-axis and the probability that a person is obese or not on the y-axis.
+
+![](img/1_AjbiN19LvfqxLSxPt9u-GA.png)
+
+You classify the sample data in such a way that if a person is below 75kg, he is considered as not obese and if a person is above 75kg, he is considered obese. In short, we are categorizing or classifying people as obese or not obese based on their weight.
+
+![](img/1_gbAJ91hzsbmrr4Ct-cIbGA.png)
+
+Keep in mind that we are using **Linear regression** to classify people as obese or not obese based on their weight. So after classifying a sample dataset, we draw a line of best fit through the data points. The line of best fit is drawn in such a way that the distance between the line and all the data points is minimum.
+
+![1_aEVAL_ZNG37IUakBz7eq9w](img/1_aEVAL_ZNG37IUakBz7eq9w.png)
+
+After drawing the line of best fit, suppose we enter a new data point say 80 kg. Will Linear regression be able to classify this data point as obese or not obese? Let’s have a look.
+
+![1_fRrhFq3K8ehbJj6kxzNoBA](img/1_fRrhFq3K8ehbJj6kxzNoBA.png)
+
+On the y-axis, the probability associated with 75 kg is kept as 0.5. Here, the condition is that, if a person’s weight is 75 kg, then there is a 50% chance that he is obese and a 50% chance that he is not obese. This means, if a person’s weight is greater than 75 Kg, then the probability will always be greater than 0.5 and hence that person will be considered obese. Similarly, if a person’s weight is less than 75 Kg, then the probability will always be less than 0.5 and the person will be considered not obese.
+
+Therefore, for a person who weighs 80 kg, the probability will be greater than 0.5 and hence he will be classified as obese.
+
+![1_omhlz8LeG32AYZjuNyKxoA](img/1_omhlz8LeG32AYZjuNyKxoA.png)
+
+And for a person who weighs 60 Kg, the probability will be less than 0.5 and hence he will be classified as not obese.
+
+![](img/1_0e4kOjUNeZHcgKrZFpKdAQ.png)
+
+**Always remember that Linear Regression is highly affected by the inclusion of an outlier.**
+
+Suppose, during our initial classification, an outlier gets added to the graph. Say 150 Kg. Because of this outlier, the position of the line of best fit completely changes.
+
+![](img/1_jLl60uRrXgEKs0FzX0DwgQ.png)
+
+Now, this my new best-fit line. As per our problem statement, if a person is above 75 Kg, we are considering that person as obese. But now, because of the new line of best fit, the probability associated with 75 Kg is less than 0.5 Hence it will be classified as not obese which is absolutely wrong.
+And with that, all the data points whose probability comes below 0.5 as per the new line of best fit will be considered as not obese.
+
+![](img/1_JPm1p8ZmpvKrApy2tQXpkQ.png)
+
+Therefore, just by the inclusion of one outlier, the entire result goes for a toss and the error rate increases drastically. There is another problem with Linear regression. Suppose, a new weight gets added to our data. Let the new weight be 180 kg. In this case, if we try to find out the probability of a person being obese or not with respect to this weight, then the probability comes out to be greater than 1.
+
+![1_SIbbU2CO5_8elXSLJqDndg](img/1_SIbbU2CO5_8elXSLJqDndg.png)
+
+This is an absolutely absurd result since the probability of any event cannot be greater than 1. Similarly, there can be a scenario where the output probability associated with weight will be less than zero. Which again does not make any sense.
+
+![](img/1_YnJkX7-ItY7sBskfezey9A.png)
+
+Hence looking at these scenarios, we are now absolutely sure that we cannot use Linear regression to solve a classification problem.
+
 1.1.1.2 **Logistic Regression**
 
 Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, **logistic regression** is estimating the parameters of a logistic model (a form of binary regression).
