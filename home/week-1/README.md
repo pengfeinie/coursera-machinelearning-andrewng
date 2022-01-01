@@ -1,4 +1,4 @@
-![](/extra/img/1_HNjcfB3lccaqB95fSWXJpQ.png)
+![](img/1_HNjcfB3lccaqB95fSWXJpQ.png)
 
 **Artificial Intelligence** is purely math and scientific exercise but when it becomes computational, it starts to solve human problems.
 
@@ -30,23 +30,23 @@ P = the probability that the program will win the next game.
 
 **Machine learning is the technology that is concerned with teaching computers different algorithms to perform different tasks, and making machines capable of taking care of themselves**. Different ideas are framed and fed to machines. There are mainly three recognized categories of framing ideas, which we reckon as the three types of machine learning. In general, any machine learning problem can be assigned to one of three broad classifications: **Supervised learning and Unsupervised learning and Reinforcement Learning.** [source](https://www.analyticssteps.com/blogs/types-machine-learning) [source](https://www.analyticssteps.com/blogs/what-confusion-matrix)
 
-![](/extra/img/types_ml.jpg)
+![](img/types_ml.jpg)
 
 #### 1.1.1 Introduction Supervised Learning
 
 Supervised learning is a set of techniques that allows future predictions based on behaviors or characteristics analyzed in historical data. In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output. Supervised learning problems are categorized into "regression" and "classification" trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are trying to map input variables into discrete categories. [source](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/)
 
-![](/extra/img/Supervised_machine_learning_in_a_nutshell.svg_.png)
+![](img/Supervised_machine_learning_in_a_nutshell.svg_.png)
 
 A labeled dataset of animal images would tell the model whether an image is of a dog, a cat, etc.. Using which, a model gets training, and so, whenever a new image comes up to the model, it can compare that image with the labeled dataset for predicting the correct label. [source](https://intellipaat.com/blog/supervised-learning-vs-unsupervised-learning-vs-reinforcement-learning/)
 
-![](/extra/img/2021-12-18_151840.png)
+![](img/2021-12-18_151840.png)
 
 There are two main areas where supervised learning is useful: **classification problems** and **regression problems**.
 
-![](/extra/img/week1_04.png) 
+![](img/week1_04.png) 
 
-![](/extra/img/2021-12-18_130447.png) 
+![](img/2021-12-18_130447.png) 
 
 [source](https://www.congrelate.com/18-machine-learning-algorithm-for-classification-gif/)
 
@@ -54,7 +54,7 @@ There are two main areas where supervised learning is useful: **classification p
 
 Classification problems ask the algorithm to predict a discrete value, identifying the input data as the member of a particular class, or group. In a training dataset of animal images, that would mean each photo was pre-labeled as cat, koala or turtle. The algorithm is then evaluated by how accurately it can correctly classify new images of other koalas and turtles.
 
-![](/extra/img/week1_02.png)
+![](img/week1_02.png)
 
 [source](https://developers.google.com/machine-learning/guides/text-classification/?hl=it-CH)
 
@@ -62,13 +62,13 @@ Classification problems ask the algorithm to predict a discrete value, identifyi
 
 A regression problem is when the output variable is a real or continuous value, such as “salary” or “weight”. Many different models can be used, the simplest is the linear regression. It tries to fit data with the best hyper-plane which goes through the points.
 
-![](/extra/img/week01-lecture2-01.png)
+![](img/week01-lecture2-01.png)
 
 **Linear Regression vs Logistic Regression** [source](https://www.javatpoint.com/linear-regression-vs-logistic-regression-in-machine-learning)
 
 Linear Regression and Logistic Regression are the two famous Machine Learning Algorithms which come under supervised learning technique. Since both the algorithms are of supervised in nature hence these algorithms use labeled dataset to make the predictions. But the main difference between them is how they are being used. The Linear Regression is used for solving Regression problems whereas Logistic Regression is used for solving the Classification problems.
 
-![](/extra/img/linear-regression-vs-logistic-regression.png)
+![](img/linear-regression-vs-logistic-regression.png)
 
 **Linear Regression:**
 
@@ -104,13 +104,13 @@ Linear Regression and Logistic Regression are the two famous Machine Learning Al
 
 Recall that in regression problems, we are taking input variables and trying to result function. Linear regression with one variable is also known as "univariate linear regression." Univariate linear regression is used when you want to predict a single output value y from a single input value x. We're doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.
 
-![](/extra/img/week01-lecture2-01.png)
+![](img/week01-lecture2-01.png)
 
-![](/extra/img/week01-lecture2-02.png)
+![](img/week01-lecture2-02.png)
 
 **The Hypothesis Function**
 
-![](/extra/img/week01-lecture2-03.png)
+![](img/week01-lecture2-03.png)
 
 Our hypothesis function has the general form: 
 
@@ -134,12 +134,12 @@ This function is otherwise called the "Squared error function", or "Mean squared
 
 Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, **logistic regression** is estimating the parameters of a logistic model (a form of binary regression).
 
-![](/extra/img/0__z9yOXB3ukbTvyV1.png)
+![](img/0__z9yOXB3ukbTvyV1.png)
 
 **The Hypothesis Function**
 
 The image that depicts the working of the Logistic regression model [source]( https://www.analyticsvidhya.com/blog/2021/07/an-introduction-to-logistic-regression/):
-![](/extra/img/1691044-1024x472.jpg)
+![](img/1691044-1024x472.jpg)
 
 A linear equation (z) is given to a sigmoidal activation function (σ) to predict the output (ŷ).
 
@@ -161,7 +161,7 @@ Clean, perfectly labeled datasets aren’t easy to come by. And sometimes, resea
 
 This type of machine learning algorithm learns from a dataset without any labels. The algorithm can automatically classify or categorize the input data. The application of unsupervised learning mainly includes cluster analysis, association rule or dimensionality reduce. [source](https://www.ecloudvalley.com/mlintroduction/) [source](https://intellipaat.com/blog/supervised-learning-vs-unsupervised-learning-vs-reinforcement-learning/)
 
-![](/extra/img/2021-12-18_145009.png)
+![](img/2021-12-18_145009.png)
 
 #### 1.1.3 Introduction Reinforcement Learning
 
@@ -171,7 +171,7 @@ To be a little more specific, reinforcement learning is a type of learning that 
 
 To begin with, there is always a start and an end state for an agent (the AI-driven system); however, there might be different paths for reaching the end state, like a maze. This is the scenario wherein reinforcement learning is able to find a solution for a problem. Examples of reinforcement learning include self-navigating vacuum cleaners, driverless cars, scheduling of elevators, etc. [source](https://intellipaat.com/blog/supervised-learning-vs-unsupervised-learning-vs-reinforcement-learning/)
 
-![](/extra/img/2021-12-18_152435.png)
+![](img/2021-12-18_152435.png)
 
 
 
