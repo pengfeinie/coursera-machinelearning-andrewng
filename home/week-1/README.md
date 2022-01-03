@@ -146,7 +146,19 @@ Using the definition of matrix multiplication, our multiple hypothesis function 
 
 ![2022-01-03_150154](img/2022-01-03_150154.png)
 
+**Gradient descent**
 
+Hypothesis: <img src="https://latex.codecogs.com/gif.latex?h_\theta%20\left(%20x%20\right)=\theta_{0}%20+%20\theta_{1}x_{1}+%20\theta_{2}x_{2}+%20\theta_{3}x_{3}+...+%20\theta_{n}x_{n}">
+
+Parameters: <img src="https://latex.codecogs.com/gif.latex?\theta_{0}">, <img src="https://latex.codecogs.com/gif.latex?\theta_{1}">, <img src="https://latex.codecogs.com/gif.latex?\theta_{2}">, <img src="https://latex.codecogs.com/gif.latex?\theta_{3}">, ... , <img src="https://latex.codecogs.com/gif.latex?\theta_{n}">
+
+Cost function: <img src="https://latex.codecogs.com/gif.latex?J%20\left(%20\theta_0,%20\theta_1%20...%20\theta_n\right)%20=%20\frac{1}{2m}\sum\limits_{i=1}^m%20\left(%20\hat{y}^{(i)}%20-y^{(i)}%20\right)^{2}=%20\frac{1}{2m}\sum\limits_{i=1}^m%20\left(%20h_{\theta}(x^{(i)})-y^{(i)}%20\right)^{2}">
+
+Gradient descent: ![](img/2022-01-03_152627.png)
+
+In other words:
+
+![](img/2022-01-03_153029.png)
 
 **Why Can’t We Use Linear Regression To Solve A Classification Problem?** [source](https://ai.plainenglish.io/why-cant-we-use-linear-regression-to-solve-a-classification-problem-68edf1a3261b)
 
