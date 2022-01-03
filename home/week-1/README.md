@@ -26,7 +26,7 @@ T = the task of playing checkers.
 
 P = the probability that the program will win the next game.
 
-![](/extra/img/week01-lecture1-01.png)
+![](img/week01-lecture1-01.png)
 
 **Machine learning is the technology that is concerned with teaching computers different algorithms to perform different tasks, and making machines capable of taking care of themselves**. Different ideas are framed and fed to machines. There are mainly three recognized categories of framing ideas, which we reckon as the three types of machine learning. In general, any machine learning problem can be assigned to one of three broad classifications: **Supervised learning and Unsupervised learning and Reinforcement Learning.** [source](https://www.analyticssteps.com/blogs/types-machine-learning) [source](https://www.analyticssteps.com/blogs/what-confusion-matrix)
 
@@ -132,7 +132,7 @@ This function is otherwise called the "Squared error function", or "Mean squared
 
 1.1.1.2 **Multiple Linear Regression**
 
-
+https://ai.plainenglish.io/why-dont-we-approach-to-classification-problems-using-linear-regression-in-machine-learning-8edcca89448
 
 
 
