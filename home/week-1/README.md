@@ -138,13 +138,15 @@ Linear regression with multiple variables is also known as "multiple linear regr
 
 ![](img/2022-01-03_144931.png)
 
+![week2_02.png](img/week2_02.png)
+
 Now define the multiple form of the hypothesis function as follows, accommodating these multiple features:
 
 <img src="https://latex.codecogs.com/gif.latex?h_\theta%20\left(%20x%20\right)=\theta_{0}%20+%20\theta_{1}x_{1}+%20\theta_{2}x_{2}+%20\theta_{3}x_{3}+...+%20\theta_{n}x_{n}">
 
-In order to develop intuition about this function, we can think about <img src="https://latex.codecogs.com/gif.latex?\theta_{0}">as the basic price of a house, <img src="https://latex.codecogs.com/gif.latex?\theta_{1}">as the price per square meter,<img src="https://latex.codecogs.com/gif.latex?\theta_{2}"> as the price per   floor,etc. <img src="https://latex.codecogs.com/gif.latex?x_{1}"> will be the number of square meters in the house, <img src="https://latex.codecogs.com/gif.latex?x_{2}">the number of floors, etc.
+In order to develop intuition about this function, we can think about <img src="https://latex.codecogs.com/gif.latex?\theta_{0}">as the basic price of a house, <img src="https://latex.codecogs.com/gif.latex?\theta_{1}">as the price per square meter,<img src="https://latex.codecogs.com/gif.latex?\theta_{2}"> as the price per   floor,etc. <img src="https://latex.codecogs.com/gif.latex?x_{1}"> will be the number of square meters in the house, <img src="https://latex.codecogs.com/gif.latex?x_{2}">the number of floors, etc. For convenience of notation, define <img src="https://latex.codecogs.com/gif.latex?x_{0} = 1"> .
 
-Using the definition of matrix multiplication, our multivariable hypothesis function can be concisely represented as:
+Using the definition of matrix multiplication, our multiple hypothesis function can be concisely represented as:
 
 ![2022-01-03_150154](img/2022-01-03_150154.png)
 
@@ -347,3 +349,5 @@ http://saitcelebi.com/tut/output/part1.html
 https://www.mariakhalusova.com/posts/2017-11-17-logistic-regression-cheat-sheet/
 
 https://sebastianraschka.com/faq/docs/regularized-logistic-regression-performance.html
+
+https://online.stat.psu.edu/stat462/node/79/
