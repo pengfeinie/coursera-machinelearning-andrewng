@@ -134,6 +134,20 @@ This function is otherwise called the "Squared error function", or "Mean squared
 
 https://ai.plainenglish.io/why-dont-we-approach-to-classification-problems-using-linear-regression-in-machine-learning-8edcca89448
 
+Linear regression with multiple variables is also known as "multiple linear regression".We now introduce notation for equations where we can have any number of input variables.
+
+![](img/2022-01-03_144931.png)
+
+Now define the multiple form of the hypothesis function as follows, accommodating these multiple features:
+
+<img src="https://latex.codecogs.com/gif.latex?h_\theta%20\left(%20x%20\right)=\theta_{0}%20+%20\theta_{1}x_{1}+%20\theta_{2}x_{2}+%20\theta_{3}x_{3}+...+%20\theta_{n}x_{n}">
+
+In order to develop intuition about this function, we can think about <img src="https://latex.codecogs.com/gif.latex?\theta_{0}">as the basic price of a house, <img src="https://latex.codecogs.com/gif.latex?\theta_{1}">as the price per square meter,<img src="https://latex.codecogs.com/gif.latex?\theta_{2}"> as the price per   floor,etc. <img src="https://latex.codecogs.com/gif.latex?x_{1}"> will be the number of square meters in the house, <img src="https://latex.codecogs.com/gif.latex?x_{2}">the number of floors, etc.
+
+Using the definition of matrix multiplication, our multivariable hypothesis function can be concisely represented as:
+
+![2022-01-03_150154](img/2022-01-03_150154.png)
+
 
 
 **Why Can’t We Use Linear Regression To Solve A Classification Problem?** [source](https://ai.plainenglish.io/why-cant-we-use-linear-regression-to-solve-a-classification-problem-68edf1a3261b)
